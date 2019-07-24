@@ -15,6 +15,7 @@ Thermostat.prototype.up = function() {
     this.temp++;
   } else {
   }
+  console.log("in up");
   return this.temp;
 };
 Thermostat.prototype.down = function() {

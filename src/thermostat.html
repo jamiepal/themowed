@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  Thermostat
+</head>
+<body>
+  <div>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="thermostat.js"> </script>
+  <script> var $thermo = new Thermostat();</script>
+  <script src="thermostatUI.js"></script>
+  </div>
+
+  <p id="temp">Current temp: <span id = "currenttemp">20</span>
+  <button id = "up">Increase temp</button>
+  <button id = "down">Decrease temp</button>
+  <button id = "reset">Reset temp</button>
+  <button id = "usage">Show energy usage</button>
+  <button id = "powersavingon">Turn power saving mode on</button>
+  <button id = "powersavingoff">Turn power saving mode off</button>
+  power saving mode is <span id="power-saving-status">on</span>
+</body>
+</html>
